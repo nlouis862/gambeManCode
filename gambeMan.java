@@ -21,7 +21,7 @@
 *2. Get the number of sides each cowries has.
 *3. For each cowry assign to it a container A.K.A variable
 *4. The cowry value should vary from 1 to the number of sides of each cowry inclusive == 2.
-*5. Keep schuffling the cowry till all of them return thesame value, then stop and return the number of schuffles you made.
+*5. Keep schuffling the cowry till all of them return thesame value, then stop and return the number of shuffles you made.
 *6. Print the returned schuffle.
 *
 *---------------------------------------------------------------------------------------------------------------------------
@@ -31,14 +31,14 @@
 *2. The cowries has just 2 sides i.e face and horn. let face = 1 adn horn = 2
 *3. If the schuffle is made and thrown and all seven cowries are thesame.
 *	i. Then the gods are happy and a positive result is obtained.
-*4. If the schuuffle is made and thrown and all the seven cowries are not thesame.
+*4. If the shuffle is made and thrown and all the seven cowries are not thesame.
 *	ii. Then it implies the gods are angry and a negative result is obtained. 
 */
 
 
 class gambeMan{
 
-	public static int schuffleCowry(){
+	public static int shuffleCowry(){
 
 //The array cowries[] holds the logical value representation of each cowry.
 		int[] cowries = new int[7]; int numberOfSides = 2;
@@ -83,7 +83,7 @@ return ret; //ret is will normally be == 1. Which indicates the number of scheff
 
 	public  static void main(String[] args) {
 
-		schuffleCowry(); //Calling the function schuffleCowry() in the the main function.
+		shuffleCowry(); //Calling the function shuffleCowry() in the the main function.
 
 	}
 }
