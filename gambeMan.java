@@ -53,7 +53,7 @@ class gambeMan{
 			double ran = (Math.random() * 2) + 1;                                                                                           //Will guaranty some income for the "gambeMan"
 			int newRan = (int) ran; //Casting the double ran to an interger newRan                                                         //So the code makes sure the gods give more of 
 			cowries[i] = newRan;    //On every loop a random number 1-2 is assigned to the corresponding index in cowries[]               //Negative random responses to guaranty the financial 
-                                                                                                                                         //Sustainability of the gambeMan
+                                                                                                                                                     //Sustainability of the gambeMan
 			//Printing to the screen the value of each cowry after schuffle                                                             //To do that the code selects just two summed outcomes
  			System.out.println(cowries[i]);                                                                                            //As positive and the remaining === negative
 
